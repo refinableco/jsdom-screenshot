@@ -1,6 +1,6 @@
 {
   "name": "jsdom-screenshot",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Generate screenshots of jsdom",
   "main": "index.js",
   "scripts": {
@@ -29,13 +29,14 @@
     "finalhandler": "1.1.2",
     "lodash.merge": "^4.6.1",
     "pretty-format": "24.8.0",
-    "puppeteer": "^1.12.2",
+    "puppeteer": "^15.1.1",
     "serve-static": "1.14.1"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=16"
   },
   "devDependencies": {
+    "@types/node": "^18.0.0",
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-config-prettier": "4.3.0",
